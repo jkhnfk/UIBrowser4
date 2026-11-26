@@ -766,6 +766,19 @@
                                         <menuItem title="Send Defined Key Code" id="rp5-bK-B2v">
                                             <modifierMask key="keyEquivalentModifierMask"/>
                                         </menuItem>
+                                        <menuItem isSeparatorItem="YES" id="cKs-sep-001"/>
+                                        <menuItem title="Click Script for Element Under Mouse" keyEquivalent="C" id="cKs-mou-001">
+                                            <modifierMask key="keyEquivalentModifierMask" option="YES" command="YES" control="YES"/>
+                                            <connections>
+                                                <action selector="generateClickScriptForElementUnderMouse:" target="Ady-hI-5gd" id="cKs-acc-001"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem title="Click Script for Selected Element" id="cKs-sel-001">
+                                            <modifierMask key="keyEquivalentModifierMask"/>
+                                            <connections>
+                                                <action selector="generateClickScriptForSelectedElement:" target="Ady-hI-5gd" id="cKs-acc-002"/>
+                                            </connections>
+                                        </menuItem>
                                     </items>
                                 </menu>
                             </menuItem>

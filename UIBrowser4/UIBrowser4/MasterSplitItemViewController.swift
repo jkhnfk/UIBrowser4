@@ -64,6 +64,9 @@ class MasterSplitItemViewController: NSViewController, UserControlValidations, N
 
         // Set the shared type property to self to give access to this object from any other object by referencing MasterSplitItemViewController.sharedInstance.
         MasterSplitItemViewController.sharedInstance = self
+
+        // Register the Command-Control-Option-C hot key that generates a click script for the UI element under the mouse pointer. See the ClickScriptHotKeyExtension.swift file.
+        installClickScriptHotKey()
    }
     
     override func viewWillAppear() {

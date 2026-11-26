@@ -40,6 +40,11 @@
 		996ED93A2268DC19005BC1D5 /* FollowFocusCheckboxExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996ED9392268DC19005BC1D5 /* FollowFocusCheckboxExtension.swift */; };
 		996ED93C2269008B005BC1D5 /* ScreenReaderButtonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996ED93B2269008B005BC1D5 /* ScreenReaderButtonExtension.swift */; };
 		996ED93E226902AA005BC1D5 /* AppleScriptButtonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996ED93D226902AA005BC1D5 /* AppleScriptButtonExtension.swift */; };
+		A1B2C3D40000000000000011 /* ElementLocator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D40000000000000001 /* ElementLocator.swift */; };
+		A1B2C3D40000000000000012 /* ClickScriptGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D40000000000000002 /* ClickScriptGenerator.swift */; };
+		A1B2C3D40000000000000013 /* ClickScriptButtonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D40000000000000003 /* ClickScriptButtonExtension.swift */; };
+		A1B2C3D40000000000000014 /* ClickScriptWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D40000000000000004 /* ClickScriptWindowController.swift */; };
+		A1B2C3D40000000000000015 /* ClickScriptHotKeyExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D40000000000000005 /* ClickScriptHotKeyExtension.swift */; };
 		996ED940226B5DE8005BC1D5 /* RefreshApplicationButtonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996ED93F226B5DE8005BC1D5 /* RefreshApplicationButtonExtension.swift */; };
 		996ED942226B673C005BC1D5 /* KeystrokesButtonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996ED941226B673C005BC1D5 /* KeystrokesButtonExtension.swift */; };
 		996ED944226B6ACD005BC1D5 /* TerminologyButtonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996ED943226B6ACD005BC1D5 /* TerminologyButtonExtension.swift */; };
@@ -122,6 +127,11 @@
 		996ED9392268DC19005BC1D5 /* FollowFocusCheckboxExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowFocusCheckboxExtension.swift; sourceTree = "<group>"; };
 		996ED93B2269008B005BC1D5 /* ScreenReaderButtonExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenReaderButtonExtension.swift; sourceTree = "<group>"; };
 		996ED93D226902AA005BC1D5 /* AppleScriptButtonExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleScriptButtonExtension.swift; sourceTree = "<group>"; };
+		A1B2C3D40000000000000001 /* ElementLocator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElementLocator.swift; sourceTree = "<group>"; };
+		A1B2C3D40000000000000002 /* ClickScriptGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClickScriptGenerator.swift; sourceTree = "<group>"; };
+		A1B2C3D40000000000000003 /* ClickScriptButtonExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClickScriptButtonExtension.swift; sourceTree = "<group>"; };
+		A1B2C3D40000000000000004 /* ClickScriptWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClickScriptWindowController.swift; sourceTree = "<group>"; };
+		A1B2C3D40000000000000005 /* ClickScriptHotKeyExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClickScriptHotKeyExtension.swift; sourceTree = "<group>"; };
 		996ED93F226B5DE8005BC1D5 /* RefreshApplicationButtonExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefreshApplicationButtonExtension.swift; sourceTree = "<group>"; };
 		996ED941226B673C005BC1D5 /* KeystrokesButtonExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeystrokesButtonExtension.swift; sourceTree = "<group>"; };
 		996ED943226B6ACD005BC1D5 /* TerminologyButtonExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TerminologyButtonExtension.swift; sourceTree = "<group>"; };
@@ -262,6 +272,11 @@
 				996ED93F226B5DE8005BC1D5 /* RefreshApplicationButtonExtension.swift */,
 				996ED941226B673C005BC1D5 /* KeystrokesButtonExtension.swift */,
 				996ED943226B6ACD005BC1D5 /* TerminologyButtonExtension.swift */,
+				A1B2C3D40000000000000001 /* ElementLocator.swift */,
+				A1B2C3D40000000000000002 /* ClickScriptGenerator.swift */,
+				A1B2C3D40000000000000003 /* ClickScriptButtonExtension.swift */,
+				A1B2C3D40000000000000004 /* ClickScriptWindowController.swift */,
+				A1B2C3D40000000000000005 /* ClickScriptHotKeyExtension.swift */,
 			);
 			name = MasterSplitItemViewController;
 			sourceTree = "<group>";
@@ -446,6 +461,11 @@
 				99E10F301E75920A00B74992 /* ElementDataModel.swift in Sources */,
 				996ED944226B6ACD005BC1D5 /* TerminologyButtonExtension.swift in Sources */,
 				996ED93E226902AA005BC1D5 /* AppleScriptButtonExtension.swift in Sources */,
+				A1B2C3D40000000000000011 /* ElementLocator.swift in Sources */,
+				A1B2C3D40000000000000012 /* ClickScriptGenerator.swift in Sources */,
+				A1B2C3D40000000000000013 /* ClickScriptButtonExtension.swift in Sources */,
+				A1B2C3D40000000000000014 /* ClickScriptWindowController.swift in Sources */,
+				A1B2C3D40000000000000015 /* ClickScriptHotKeyExtension.swift in Sources */,
 				99B56FDE21A7095000F6FB0B /* ElementPathControlManager.swift in Sources */,
 				995622CE224BF06D00C92B14 /* ValidatedToolbarItem.swift in Sources */,
 				9909E8B81E73295300D8F827 /* ActionsTabItemViewController.swift in Sources */,
