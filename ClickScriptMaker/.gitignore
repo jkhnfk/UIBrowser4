@@ -1,0 +1,5 @@
+# The application bundle produced by build.sh
+build/
+
+# Finder metadata
+.DS_Store
